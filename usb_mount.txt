@@ -1,0 +1,10 @@
+To mount the external hard drive, create mount location:
+
+sudo mkdir /media/<mountlocation>
+
+Use blkid to lookup usb drive info and add that to 
+/etc/fstab 
+
+UUID=CA10F7A510F79723 /media/<mountlocation> auto,rw,users,uid=pi,gid=pi 0 0
+
+then do sudo mount -a to refresh
