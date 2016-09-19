@@ -1,0 +1,4 @@
+Follow the steps to setup rsa key based login to the pi
+
+https://kb.iu.edu/d/aews
+
