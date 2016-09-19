@@ -1,0 +1,7 @@
+
+Install plex media server.
+
+* move metadata to harddrive
+   edit /etc/default/plexmediaserver
+
+
